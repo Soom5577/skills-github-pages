@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="Halloween">
+        <div class="Halloween-2"></div>
+        <div class="Halloween-3"></div>
+        <div class="w1"></div>
+        <div class="w2"></div>
+        <div class="w3"></div>
+        <div class="w4"></div>
+        <div class="w5"></div>
+    </div>
+    
+    <style>
+        body {
+  font-size: 16px;
+}
+
+/* تصميم للأجهزة اللوحية */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+/* تصميم للهواتف المحمولة */
+@media (max-width: 480px) {
+  body {
+    font-size: 12px;
+  }
+}
+.container {
+  width: 80%;
+  font-size: 1.2em;
+}
+img {
+  max-width: 100%;
+  height: 400px;
+}
+        .Halloween {
+            width: 130px;
+            height: 170px;
+            background-color: black;
+            border-radius: 100px;
+            position: absolute;
+            left: 200px;
+            top: 150px;
+        }
+        .Halloween-2 {
+            width: 50px;
+            height: 100px;
+            background-color: black;
+            border-top-left-radius: 52px;
+            border-bottom-left-radius: 45px;
+            position: absolute;
+            left: -25px;
+            top: 45px;
+            z-index: -1;
+        }
+        .Halloween-3 {
+            width: 50px;
+            height: 100px;
+            background-color: black;
+            border-top-right-radius: 52px;
+            border-bottom-right-radius: 45px;
+            position: absolute;
+            left: 105px;
+            top: 45px;
+            z-index: -1;
+        }
+        .w1 {
+            width: 60px;
+            height: 50px;
+            background-color: black;
+            clip-path: polygon(-2% -1%, 0% 100%, 100% 100%);
+            position: absolute;
+            top: -25px;
+            left: -10px;
+            transform: rotate(-29deg);
+        }
+        .w2 {
+            width: 60px;
+            height: 50px;
+            background-color: black;
+            clip-path: polygon(97% -1%, 0% 100%, 100% 100%);
+            position: absolute;
+            top: -28px;
+            left: 70px;
+            transform: rotate(25deg);
+        }
+        .w3 {
+            width: 48px;
+            height: 48px;
+            background-color: white;
+            border-radius: 50%;
+            position: absolute;
+            top: 40px;
+            left: 10px;
+        }
+        .w3::before {
+            display: block;
+            content: "";
+            width: 23px;
+            height: 23px;
+            background-color: black;
+            border-radius: 50%;
+            position: absolute;
+            top: 13px;
+            left: 12px;
+        }
+        .w4 {
+            width: 48px;
+            height: 48px;
+            background-color: white;
+            border-radius: 50%;
+            position: absolute;
+            top: 40px;
+            left: 70px;
+        }
+        .w4::before {
+            display: block;
+            content: "";
+            width: 23px;
+            height: 23px;
+            background-color: black;
+            border-radius: 50%;
+            position: absolute;
+            top: 13px;
+            left: 12px;
+        }
+        .w5 {
+            width: 30px;
+            height: 20px;
+            background-color: white;
+            clip-path: polygon(92% 4%, 15% 4%, 53% 104%);
+            position: absolute;
+            top: 100px;
+            left: 48px;
+        }
+    </style>
+</body>
+</html>
